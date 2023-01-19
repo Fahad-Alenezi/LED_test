@@ -52,8 +52,6 @@ mypin.mode(PullUp);
 
         }
 
-   
-
     }
 
 }
