@@ -44,11 +44,19 @@ mypin.mode(PullUp);
 
             LED=0;
 
-    printf("LED IS ON : %d \n\r", LED.read());
-
+    printf("LED IS OFF : %d \n\r", LED.read());
+    printf("LDR : %d \n\r", mypin.read());
     
 
           ThisThread::sleep_for(250);
+
+        }
+        else {
+
+            LED = 1;
+             printf("LED IS OFF : %d \n\r", LED.read());
+             printf("LDR : %d \n\r", mypin.read());
+
 
         }
 
